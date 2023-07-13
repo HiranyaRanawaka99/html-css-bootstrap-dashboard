@@ -1,5 +1,5 @@
 :root {
-    --main-header: #165BBA;
+    --header-main: #165BBA;
     --side-top: #051E34;
     --side-bottom: #142A40;
     --header-main-btn: #165BBA;
@@ -13,15 +13,65 @@
 
 
 body {
+    height: 100vh
+}
+
+/*DEBUG*/
+
+.box {
+    border: 2px dashed green;
+}
+
+[ class*= "col-"] {
+    border: 2px dashed red;
+    height: 30px;
+}
+
+.row .col {
+    border: 2px dashed red;
+    height: 300px;
 }
 
 
-
+.box.tall {
+    min-height: 200px;
+}
 /* HEADER */
 
 
 
-/* MAIN */
+/* CUSTOMIZED MAIN*/
+
+.cs-main {
+    height: (100%-56px);
+}
+    /* sidebar */
+
+.side-nav {
+    background-color: var(--side-bottom);
+    color: white;
+
+    width: 100px;
+    height: 100vh;
+}
+
+/*MAIN CONTENT*/
+
+.main-content {
+    width: calc(100% - 100px);
+}
+
+    /* -header */
+.main-header {
+    background-color: var(--header-main-btn);
+}
+
+    /* - cards */
+
+.main-cards {
+    background-color:antiquewhite ;
+}
+
 
 
 
