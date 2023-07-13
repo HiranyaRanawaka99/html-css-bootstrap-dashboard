@@ -1,0 +1,48 @@
+:root {
+    --main-header: #165BBA;
+    --side-top: #051E34;
+    --side-bottom: #142A40;
+    --header-main-btn: #165BBA;
+    --bell:#FF8F00;
+    --class-name: #F26551;
+    --class-done: #198754;
+    --class-process:#FFC107;
+    --class-failed:#DC3545;
+}
+
+
+
+body {
+
+}
+
+
+
+/* HEADER */
+
+
+
+/* MAIN */
+
+
+
+
+/* FOOTER */
+
+
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 576px) {
+    
+}
+
+
+@media screen and (min-width: 768px) {
+
+}
+
+
+@media screen and (min-width:1200px) {
+
+}
