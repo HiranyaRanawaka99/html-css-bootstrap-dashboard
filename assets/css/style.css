@@ -170,21 +170,17 @@ td {
 }
 
 
+/* OFF CANVAS */
 
-
-
-
-
-
-/* FOOTER */
+.offcanvas .offcanvas-end {
+    max-width: 100%
+}
 
 
 
 /* RESPONSIVE */
 
 @media screen and (min-width: 576px) {
-
-
 
 }
 
