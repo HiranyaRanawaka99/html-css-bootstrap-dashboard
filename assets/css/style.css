@@ -115,7 +115,7 @@ img {
 
     /* - cards */
 .avatar {
-    width: 1.5rem;
+    width: 1.3rem;
 }
 
 
@@ -150,12 +150,23 @@ td {
 .fa-trash  {
     color: grey;
     border: 1px solid grey;
-    padding: 3px 8px 0px 8px;
+    padding: 5px;
     border-radius: 5px;
 
-    align-self:center;
-
 }
+
+    /*To do card*/
+
+.card.in {
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.card.in div {
+    border-bottom: 1px solid lightgray;
+}
+
+
 
 
 
