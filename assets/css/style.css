@@ -22,27 +22,27 @@ img {
     cursor: pointer;
 }
 
-/* DEBUG
 
-.box {
-    border: 2px dashed green;
+/* HEADER NAVBAR */
+
+.logo-sm {
+    width: 50px;
 }
 
-[ class*= "col-"] {
-    border: 2px dashed red;
+.navbar {
+    justify-content: space-evenly;
+}
+
+.search {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: rgb(234, 234, 234);
     
 }
 
-.row .col {
-    border: 2px dashed blue;
-} 
-
-
-.box.tall {
-    min-height: 200px; 
+.fa-bell{
+    color: var(--bell);
 }
-/*
-/* HEADER NAVBAR */
 
 
 
@@ -196,8 +196,6 @@ td {
     td  {
         width: 25%;
 }
-    
-
 }
 
 
@@ -223,4 +221,9 @@ td {
         padding-right: 0.2rem;
     }
 
+    .icons {
+        margin-left: auto;
+        padding: 1rem;
+        color: rgb(77, 75, 75);
+    }
 }

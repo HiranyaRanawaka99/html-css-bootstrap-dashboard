@@ -11,42 +11,29 @@
 </head>
 <body>
 
-    <!-- HEADER -->
+<!----HEADER ---->
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
+        <!--navbar-->
+        <nav class="py-2">
+           <div class="container-fluid d-flex align-items-center justify-content-between gap-2">
+                <div>
+                    <a class="navbar-brand" href="#">
+                    <img src="assets/img/mobile-logo.png" class="logo-sm d-lg-none" alt="Boolean-logo">
+                    <img src="assets/img/logo.svg" class="logo-lg d-none d-lg-block" alt="boolean-logo">
                     </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
+                </div>
+                <div class="search-bar" role="search">
+                  <input class="search" type="search" placeholder="&#128269;Prova a cercare: Lezioni di Larvel"> 
+                </div>
+                <div class="icons d-none d-lg-flex gap-2">
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-question"></i>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+                <div class="notifications">
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+
             </div>
           </nav>
     </header>
@@ -77,9 +64,8 @@
             </div>
         </div>
 
-        <!-- MAIN CONTENT-->
+<!----------------- MAIN CONTENT----------------------->
         <main class="main-content">
-
 
             <!-- MAIN - Header sm -->
             <header class="main-header py-4 d-md-none">
@@ -118,7 +104,6 @@
             </header>
 
             <!-- MAIN header md and lg -->
-
             <div class="main-header d-none d-md-block py-4">
                 <div class="main-header-box container-fluid d-md-flex gap-2">         
                     <div class="boolean absolute col-md-5">
@@ -152,7 +137,7 @@
                 </div>
             </div>
 
-            <!-- MAIN - Cards -->
+            <!--- MAIN - Cards --->
             <div class="main-cards">
                 <div class="container-fluid">
                     <div class="row d-flex flex-column flex-lg-row">
