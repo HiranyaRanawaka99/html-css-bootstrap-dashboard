@@ -164,6 +164,9 @@ td {
 
 .card.in div {
     border-bottom: 1px solid lightgray;
+
+    min-height: 40px;
+    line-height: 40px;
 }
 
 
